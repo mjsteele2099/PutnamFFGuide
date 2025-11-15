@@ -5,11 +5,13 @@ A beautiful, interactive digital guidebook for short-term rental guests. Feature
 ## Features
 
 - 📖 **Book-like Interface** - Realistic page turning animations and elegant design
+- 🔐 **Google Authentication** - Secure access control for authorized guests only
 - 🎯 **Easy Navigation** - Arrow keys, buttons, or click through table of contents
 - 📱 **Responsive Design** - Works beautifully on desktop, tablet, and mobile
 - ✨ **Smooth Animations** - Built with Framer Motion for fluid transitions
 - 🎨 **Beautiful UI** - Warm, inviting color palette with serif typography
 - 📝 **Easy to Customize** - All content in one central data file
+- 📄 **Print/PDF Export** - Generate PDF version for offline use
 
 ## Sections Included
 
