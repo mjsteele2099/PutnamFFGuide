@@ -10,7 +10,7 @@ export const propertyInfo = {
   address: "34 Putnam Street",
   city: "Danvers, MA",
   host: {
-    name: "Steele",
+    name: "Matt Steele",
     phone: "(978) 500-2099",
     email: "host@example.com"
   },
