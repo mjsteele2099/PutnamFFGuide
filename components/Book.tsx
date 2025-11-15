@@ -8,10 +8,7 @@ import TableOfContents from './pages/TableOfContents'
 import AboutUnit from './pages/AboutUnit'
 import HouseGuide from './pages/HouseGuide'
 import LocalEats from './pages/LocalEats'
-import ThingsToDo from './pages/ThingsToDo'
 import EmergencyInfo from './pages/EmergencyInfo'
-import HouseRules from './pages/HouseRules'
-import CheckoutPage from './pages/CheckoutPage'
 
 const pages = [
   { id: 0, component: CoverPage, title: 'Cover' },
@@ -19,10 +16,7 @@ const pages = [
   { id: 2, component: AboutUnit, title: 'About the Unit' },
   { id: 3, component: HouseGuide, title: 'House Guide' },
   { id: 4, component: LocalEats, title: 'Where to Eat' },
-  { id: 5, component: ThingsToDo, title: 'Things to Do' },
-  { id: 6, component: EmergencyInfo, title: 'Emergency Info' },
-  { id: 7, component: HouseRules, title: 'House Rules' },
-  { id: 8, component: CheckoutPage, title: 'Check-out' },
+  { id: 5, component: EmergencyInfo, title: 'Emergency Info' },
 ]
 
 export default function Book() {

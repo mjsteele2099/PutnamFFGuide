@@ -4,10 +4,7 @@ const sections = [
   { id: 2, title: 'About the Unit', icon: Home, description: 'Layout, amenities, and features' },
   { id: 3, title: 'House Guide', icon: BookOpen, description: 'WiFi, appliances, and how-tos' },
   { id: 4, title: 'Where to Eat', icon: Utensils, description: 'Local restaurants and cafes' },
-  { id: 5, title: 'Things to Do', icon: MapPin, description: 'Activities and attractions' },
-  { id: 6, title: 'Emergency Information', icon: AlertCircle, description: 'Important contacts' },
-  { id: 7, title: 'House Rules', icon: FileText, description: 'Guidelines for your stay' },
-  { id: 8, title: 'Check-out Instructions', icon: LogOut, description: 'Before you leave' },
+  { id: 5, title: 'Emergency Information', icon: AlertCircle, description: 'Important contacts' },
 ]
 
 export default function TableOfContents({ goToPage }: { goToPage: (page: number) => void }) {
