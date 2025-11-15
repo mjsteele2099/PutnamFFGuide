@@ -28,6 +28,7 @@ A beautiful, interactive digital guidebook for short-term rental guests. Feature
 ### Prerequisites
 
 - Node.js 18+ and npm
+- Google Cloud Console account (for authentication)
 
 ### Installation
 
@@ -38,13 +39,20 @@ A beautiful, interactive digital guidebook for short-term rental guests. Feature
 npm install
 ```
 
-3. Run the development server:
+3. **Set up Google Authentication** (Important!):
+   - Follow the detailed guide in `AUTHENTICATION_SETUP.md`
+   - Create `.env.local` from `.env.example`
+   - Add your Google OAuth credentials
+   - Add allowed email addresses
+
+4. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
+6. Sign in with an authorized Google account
 
 ## Customization
 
