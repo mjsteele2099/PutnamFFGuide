@@ -7,8 +7,8 @@ export interface Page {
 
 export const propertyInfo = {
   name: "Your Property Name",
-  address: "123 Main Street",
-  city: "Your City, State",
+  address: "34 Putnam Street",
+  city: "Danvers, MA",
   host: {
     name: "Steele",
     phone: "(978) 500-2099",
@@ -225,6 +225,23 @@ export const restaurants = {
     }
   ]
 }
+
+export const groceries = [
+  {
+    name: "McKinnon's Market & Super Butcher Shop",
+    address: "73 Holten Street, Danvers, MA 01923",
+    phone: "(978) 774-0479",
+    url: "https://www.mckinnonsmarkets.com/",
+    note: "Danvers location — full-service market and butcher"
+  },
+  {
+    name: "Market Basket (Middleton)",
+    address: "230 South Main Street, Middleton, MA 01949",
+    phone: "(978) 777-6233",
+    url: "https://www.shopmarketbasket.com/store-locations/middleton-massachusetts-market-basket-45/",
+    note: "Less busy than the Danvers Market Basket; good alternative"
+  }
+]
 
 export const activities = [
   {
