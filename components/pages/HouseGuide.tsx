@@ -240,6 +240,96 @@ export default function HouseGuide({ goToPage }: { goToPage: (page: number) => v
             </div>
           </div>
 
+          {/* Bathroom Essentials */}
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <div className="flex items-start gap-3 mb-3">
+              <div className="text-book-accent mt-1 text-2xl">🚿</div>
+              <div className="flex-1">
+                <h3 className="text-xl font-serif font-semibold text-book-cover mb-2">
+                  Bathroom Essentials & Supplies
+                </h3>
+                <p className="text-book-text font-sans text-sm mb-3 leading-relaxed">
+                  We've stocked plenty of supplies so you don't run out!
+                </p>
+                <ul className="text-book-accent font-sans text-sm space-y-1 list-disc list-inside">
+                  <li><strong>Toilet Paper:</strong> Extra rolls in the white bathroom drawers</li>
+                  <li><strong>More supplies:</strong> Additional toilet paper and paper towels in the basement</li>
+                  <li><strong>Bulk storage:</strong> Even more on the rack near the washer and dryer in the basement</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Kitchen Organization */}
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <div className="flex items-start gap-3 mb-3">
+              <div className="text-book-accent mt-1 text-2xl">🍳</div>
+              <div className="flex-1">
+                <h3 className="text-xl font-serif font-semibold text-book-cover mb-2">
+                  Kitchen Guide - Where to Find Everything
+                </h3>
+                <p className="text-book-text font-sans text-sm mb-4 leading-relaxed">
+                  Everything has its place! Here's a complete guide to the kitchen layout:
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="bg-book-page rounded p-4">
+                    <p className="text-book-cover font-sans text-sm font-semibold mb-2">
+                      🍳 Cooking Essentials:
+                    </p>
+                    <ul className="text-book-text font-sans text-sm space-y-1 list-disc list-inside">
+                      <li><strong>Pots and pans:</strong> To the left of the oven</li>
+                      <li><strong>Cutting boards, pizza stones, food trays:</strong> To the right of the oven</li>
+                      <li><strong>Cooking oil & spices:</strong> Cabinets left and right of microwave (more spices on the right)</li>
+                      <li><strong>Cooking tools:</strong> Second drawer to the right of the sink</li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-book-page rounded p-4">
+                    <p className="text-book-cover font-sans text-sm font-semibold mb-2">
+                      🍽️ Dishes & Utensils:
+                    </p>
+                    <ul className="text-book-text font-sans text-sm space-y-1 list-disc list-inside">
+                      <li><strong>Silverware:</strong> First drawer to the right of the sink</li>
+                      <li><strong>Bigger cups & plastic cups:</strong> Cabinet to the right of the sink</li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-book-page rounded p-4">
+                    <p className="text-book-cover font-sans text-sm font-semibold mb-2">
+                      🧼 Cleaning & Supplies:
+                    </p>
+                    <ul className="text-book-text font-sans text-sm space-y-1 list-disc list-inside">
+                      <li><strong>Dishwasher pods:</strong> Under the sink</li>
+                      <li><strong>Hand soap, dish soap, extra trash bags, cleaners:</strong> Under the sink</li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-book-page rounded p-4">
+                    <p className="text-book-cover font-sans text-sm font-semibold mb-2">
+                      📦 Storage & Organization:
+                    </p>
+                    <ul className="text-book-text font-sans text-sm space-y-1 list-disc list-inside">
+                      <li><strong>To the left of the fridge - First drawer:</strong> Extra dish towels</li>
+                      <li><strong>To the left of the fridge - Second drawer:</strong> Square storage Snapware containers</li>
+                      <li><strong>To the left of the fridge - Bottom drawer:</strong> Circle storage and extra plastic containers</li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-book-accent bg-opacity-10 rounded p-4">
+                    <p className="text-book-cover font-sans text-sm font-semibold mb-2">
+                      🍿 Snacks & Extras:
+                    </p>
+                    <p className="text-book-text font-sans text-sm">
+                      <strong>Plenty of storage to the right of the fridge</strong> - help yourself to any snacks you find! 
+                      There aren't much, but you're welcome to what's there. Feel free to use this space for your own groceries too!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Coffee Makers */}
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="flex items-start gap-3 mb-3">
