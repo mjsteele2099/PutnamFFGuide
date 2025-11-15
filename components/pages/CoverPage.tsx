@@ -30,10 +30,7 @@ export default function CoverPage({ goToPage }: { goToPage: (page: number) => vo
         </button>
       </div>
 
-      <div className="absolute bottom-12 text-sm opacity-60 font-sans">
-        <p>Created with care for our guests</p>
       </div>
-    </div>
   )
 }
 
