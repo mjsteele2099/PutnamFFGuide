@@ -119,7 +119,7 @@ export default function LocalEats({ goToPage }: { goToPage: (page: number) => vo
         {/* Groceries & Markets */}
         <div className="mb-8">
           <h3 className="text-2xl font-serif font-semibold text-book-cover mb-3">Groceries & Markets</h3>
-          <ul className="list-disc list-inside space-y-3 text-sm">
+          <ul className="list-none space-y-3 text-sm">
             {groceries.map((g: any) => (
               <li key={g.name} className="bg-white rounded-lg p-4 shadow-sm border-l-4 border-book-accent">
                 <div className="flex items-start justify-between">
