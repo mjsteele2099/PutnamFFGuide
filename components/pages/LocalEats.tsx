@@ -1,5 +1,5 @@
 import { Utensils, Coffee, MapPin, DollarSign, Phone, ExternalLink, Star } from 'lucide-react'
-import { restaurants } from '@/data/content'
+import { restaurants, groceries } from '@/data/content'
 
 export default function LocalEats({ goToPage }: { goToPage: (page: number) => void }) {
   const categories = [
@@ -115,6 +115,30 @@ export default function LocalEats({ goToPage }: { goToPage: (page: number) => vo
         })}
 
         {/* Price Guide */}
+        
+        {/* Groceries & Markets */}
+        <div className="mb-8">
+          <h3 className="text-2xl font-serif font-semibold text-book-cover mb-3">Groceries & Markets</h3>
+          <ul className="list-disc list-inside space-y-3 text-sm">
+            {groceries.map((g: any) => (
+              <li key={g.name} className="bg-white rounded-lg p-4 shadow-sm border-l-4 border-book-accent">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <a href={g.url} target="_blank" rel="noreferrer" className="text-book-accent font-semibold">
+                      {g.name}
+                    </a>
+                    <div className="text-book-text text-xs">{g.address} • {g.phone}</div>
+                    {g.note && <div className="text-xs italic opacity-80 mt-1">{g.note}</div>}
+                  </div>
+                  <div className="text-sm text-book-accent flex-shrink-0 ml-4">
+                    <ExternalLink size={16} />
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <div className="bg-gradient-to-br from-book-accent to-book-cover text-white rounded-lg shadow-lg p-6 mb-8">
           <div className="flex items-center gap-2 mb-4">
             <DollarSign size={28} />
