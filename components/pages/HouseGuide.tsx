@@ -104,8 +104,8 @@ export default function HouseGuide({ goToPage }: { goToPage: (page: number) => v
                 <p><strong>📍 Location:</strong> Lockbox mounted on the fence to the <strong>left</strong> of the front door</p>
                 <p><strong>🔢 Lockbox Code:</strong></p>
                 <div className="bg-white bg-opacity-30 rounded px-4 py-3 text-center">
-                  <span className="text-3xl font-bold tracking-wider">2615</span>
-                  <p className="text-xs mt-1 opacity-80">(Last 4 digits of your phone number)</p>
+                  <span className="text-3xl font-bold tracking-wider">Last four digits of your phone number</span>
+                  <p className="text-xs mt-1 opacity-80">Use the last 4 digits of the phone number you provided when booking.</p>
                 </div>
                 <p className="text-xs opacity-90 italic">
                   📝 The lockbox contains a physical key to the house. Please return the key to the 

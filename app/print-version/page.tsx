@@ -136,7 +136,7 @@ export default function PrintVersion() {
           
           <h4 className="font-semibold text-book-accent mb-2">Option 2: Lockbox</h4>
           <p className="text-sm mb-2">Lockbox on fence to the LEFT of front door</p>
-          <p className="text-sm"><strong>Code: 2615</strong> (last 4 digits of your phone number)</p>
+          <p className="text-sm"><strong>Code:</strong> Last four digits of your phone number</p>
         </div>
 
         <h3 className="text-2xl font-serif font-semibold text-book-cover mb-4">Parking & Entry</h3>
