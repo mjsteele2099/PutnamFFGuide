@@ -391,7 +391,7 @@ export default function HouseGuide({ goToPage }: { goToPage: (page: number) => v
                     💻 Triple Monitor Setup:
                   </p>
                   <ul className="text-book-text font-sans text-sm space-y-1 list-disc list-inside">
-                    <li><strong>3 mounted monitors</strong> for maximum productivity</li>
+                    <li><strong>3 mounted monitors</strong> for maximum productivity - use the largest you have to plug the HDMI cable to the computer</li>
                     <li>Keyboard and mouse provided</li>
                     <li><strong>USB-C docking station</strong> - just plug in your laptop with one cable</li>
                     <li>Your laptop can stay closed once connected - monitors, keyboard, and mouse will work automatically</li>

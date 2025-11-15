@@ -27,9 +27,9 @@ export const propertyInfo = {
 
 export const emergencyContacts = [
   { name: "Emergency Services", phone: "911" },
-  { name: "Host (Steele)", phone: "(978) 500-2099" },
-  { name: "Secondary Contact (Matt Steele)", phone: "(508) 789-5265" },
-  { name: "Local Hospital", phone: "(978) 777-7000", address: "57 Highland Ave, Salem, MA" },
+  { name: "(Matt Steele III)", phone: "(978) 500-2099" },
+  { name: "Secondary Contact (Matt Steele Jr.)", phone: "(508) 789-5265" },
+  { name: "Beverly Hospital", phone: "(978) 922-3000", address: "85 Herrick St, Beverly, MA 01915" },
   { name: "Police (Non-Emergency)", phone: "(978) 774-1212" },
 ]
 
@@ -62,7 +62,7 @@ export const amenities = {
   bathroom: [
     "Fresh towels and linens",
     "Hair dryer",
-    "Shampoo and body wash"
+    "Shampoo and body wash (extra body wash in big cabinet to left of bathroom entrace)"
   ],
   mainBedroom: [
     "Queen-size bed with premium linens",
